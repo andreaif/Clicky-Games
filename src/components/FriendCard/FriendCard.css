@@ -1,0 +1,39 @@
+.img-box {
+ 
+  height: 325px;
+  margin: 1rem;
+  position: relative;
+  width: 300px;
+  text-align: left;
+}
+
+.img-container {
+  height: 60%;
+  overflow: hidden;
+  text-align: center;
+  background:#6CADDC;
+}
+.img-box > .img-container > img {
+  width: 100%
+}
+
+.img-box > .content > ul {
+  list-style-type: none;
+}
+
+.img-box > .content > ul > li {
+  margin-top: 18px;
+}
+
+.img-box > .remove {
+  color: #ff1744;
+  font-size: 48px;
+  position: absolute;
+  top: -20px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.img-box > .remove:hover {
+  color: #d50000;
+}
